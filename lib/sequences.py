@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 
 def print_fibonacci(length):
-    fibonacci_arr = []
+    fibonacci_arr = list()
     if length == 0:
         print( fibonacci_arr)
     elif length == 1:
@@ -16,4 +16,4 @@ def print_fibonacci(length):
             fibonacci_arr.append(fibonacci_arr[-1] + fibonacci_arr[-2])
         print(fibonacci_arr)
 
-print_fibonacci(12)
+print_fibonacci(10)
